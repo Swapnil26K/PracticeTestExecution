@@ -33,6 +33,7 @@ public class TestBase {
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "F:\\Selenium - Workspace\\PracticeSelenium\\chromedriver.exe");	
 			driver = new ChromeDriver(); 
+			System.out.println("Swapnil");
 		}
 		else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");	
